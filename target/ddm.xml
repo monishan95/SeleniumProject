@@ -1,0 +1,40 @@
+<suite name = "DDM suite">
+    <test name="Login functionality">
+        <classes>
+            <class name="org.ddmframework.DataProvider">
+            </class>
+        </classes>
+    </test>
+
+
+
+    <!--<test name = "Both correct Test">
+        <parameter name="username" value = "Admin"> </parameter>
+        <parameter name="password" value = "admin123"> </parameter>
+        <classes>
+            <class name = "org.ddmframework.BothCorrect"> </class>
+        </classes>
+    </test>
+    <test name = "Both incorrect Test">
+        <parameter name="username" value = "Admin@"> </parameter>
+        <parameter name="password" value = "admin123@"> </parameter>
+        <classes>
+            <class name = "org.ddmframework.BothIncorrect"> </class>
+        </classes>
+    </test>
+    <test name = "Crct U.Name Test">
+        <parameter name="username" value = "Admin"> </parameter>
+        <parameter name="password" value = "admin123@"> </parameter>
+        <classes>
+            <class name = "org.ddmframework.CorrectUsername"> </class>
+        </classes>
+    </test>
+    <test name = "Crct Pwd Test">
+        <parameter name="username" value = "Admin@"> </parameter>
+        <parameter name="password" value = "admin123"> </parameter>
+        <classes>
+            <class name = "org.ddmframework.CorrectPassword"> </class>
+        </classes>
+    </test>-->
+
+</suite>

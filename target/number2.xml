@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name ="ttt" verbose = '2' parallel = "method" thread-count = "2">
+<test name="ssss">
+    <parameter name = "character" value ="quiet"> </parameter>
+    <parameter name = "valueone" value = "Moni"></parameter>
+    <parameter name="valuetwo" value=" Nash">    </parameter>
+    <classes>
+        <class name="org.wwTestNgLao.ParallelTesting"/>
+        <class name = "org.wwTestNgLao.Parameterization"/>
+        <!--<class name = "org.wwTestNgLao.Timeouts"/>-->
+    </classes>
+</test>
+</suite>
